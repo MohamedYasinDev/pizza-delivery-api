@@ -1,0 +1,23 @@
+# Logs
+*.log
+api/order_log.txt
+
+# Database dumps and backups
+*.sql
+*.sql.gz
+*.bak
+*.backup
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies and temporary files
+vendor/
+node_modules/
+tmp/
+temp/
+
+# Local database configuration
+config/db.php
